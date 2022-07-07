@@ -1,15 +1,14 @@
 #
 # A better solution to the 100 prisoners riddle
 # By: Richard Vallée
-# July 2022
+# Date: 7 July 2022
 #
-# It involves a simple change in strategy that improves odds from
-#   31% to 33% in a 100 sample size and up to 52% in a 10 sample size
+# It involves a simple change in strategy that improves odds from 31% to 33% in a 100 sample size and up to 52% in a 10 sample size.
 #
 # The strategy:
 #   When they don't find their number, prisoners report the number on the card found in the last box/drawer
-# When the sequence is 51, and only when it's 51, it will always be the right answer.
-# This means any sequence 51 and shorter will work, not 50
+#   When the sequence is 51, and only when it's 51, it will always be the right answer.
+#   This means any sequence 51 and shorter will work, not 50
 #
 # This also creates an alternative version of the puzzle:
 #   How to get better than 50% odds from opening half of 10 boxes
