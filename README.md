@@ -7,22 +7,22 @@ At 100 it's still an improvement of around 2%: 31% vs 33%. The odds are much imp
 
 ### Program output for validation:
 
-Begin hacking with 10,000 loops ...    
+Begin hacking with 100,000 loops ...    
 10 boxes:    
-35.47% victory without last card strategy    
-51.74% victory with last card strategy    
+35.52% victory without last card strategy    
+52.17% victory with last card strategy    
 20 boxes:    
-33.14% victory without last card strategy    
-41.94% victory with last card strategy    
+33.37% victory without last card strategy    
+42.21% victory with last card strategy    
 40 boxes:    
-31.76% victory without last card strategy    
-36.64% victory with last card strategy    
+31.93% victory without last card strategy    
+36.71% victory with last card strategy    
 50 boxes:    
-32.17% victory without last card strategy    
-35.69% victory with last card strategy    
+31.61% victory without last card strategy    
+35.80% victory with last card strategy    
 100 boxes:    
-31.20% victory without last card strategy    
-32.28% victory with last card strategy
+30.93% victory without last card strategy    
+33.21% victory with last card strategy
 
 
 ### Explanation
