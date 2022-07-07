@@ -27,7 +27,7 @@ Begin hacking with 100,000 loops ...
 
 ### Explanation
 
-In a sample of 100, for chains of length 51 (or n/2+1), and only for chains of length 51, that answer will always be correct. This only improves the odds, by about 2% (33% vs 31%) in a 100 sample size, but all the way up to 52% for a sample of 10, compared to about 35-36% without the last card strategy.
+In a sample of 100, for chains of length 51 (or n/2+1), and only for chains of length 51, that answer will always be correct, the last box/drawer contains the card with the prisoner's number on it, the right answer, because it must point to the 1st box opened to close the loop at length 51. This only improves the odds, by about 2% (33% vs 31%) in a 100 sample size, but all the way up to 52% for a sample of 10, compared to about 35-36% without the last card strategy.
 
 So it goes:    
 	- In every sequence below 51, you will always find your number in one of the boxes.    
@@ -35,6 +35,6 @@ So it goes:
 	- In a sequence of 51, once you open the last box with the number of the 51th box in the sequence, you don't need to know what's in it, because in that sequence it can only be your number, the one that points to the first box you opened, as otherwise the sequence length would be above 51. QED.
 
 
-### Acknowledgements
+#### Acknowledgements
 
 Thanks to Derek at Veritasium, his video (https://youtu.be/iSNsgj1OCLA) on this puzzle led me to this solution.
