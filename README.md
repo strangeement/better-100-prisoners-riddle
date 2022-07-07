@@ -9,22 +9,22 @@ At 1,000 and above it stabilizes at around 31% for the standard strategy and 33%
 
 Program output for validation:
 
-Commence hacking with 10000 loops ...
-10 boxes:
- 35.23% victory without last card strategy
- 52.96% victory with last card strategy
-20 boxes:
- 32.43% victory without last card strategy
- 42.39% victory with last card strategy
-40 boxes:
- 32.24% victory without last card strategy
- 36.44% victory with last card strategy
-50 boxes:
- 31.63% victory without last card strategy
- 35.27% victory with last card strategy
-100 boxes:
- 31.99% victory without last card strategy
- 33.38% victory with last card strategy
+Commence hacking with 1000 loops ...    
+10 boxes:    
+35.00% victory without last card strategy    
+52.90% victory with last card strategy    
+20 boxes:    
+34.50% victory without last card strategy    
+45.20% victory with last card strategy    
+40 boxes:    
+32.40% victory without last card strategy    
+36.50% victory with last card strategy    
+50 boxes:    
+30.40% victory without last card strategy    
+36.90% victory with last card strategy    
+100 boxes:    
+33.00% victory without last card strategy        
+35.30% victory with last card strategy
  
 For chains of length 51, and only for chains of length 51, that answer will always be correct. This only improves the odds, by about 2% (33% vs 31%) in a 100 sample size, but all the way up to 52% for a sample of 10, compared to about 35-36% without the last card strategy.
 
