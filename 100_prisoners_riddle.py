@@ -1,15 +1,26 @@
 #
 # A better solution to the 100 prisoners riddle
+# By: Richard Vallée
+# July 2022
+#
 # It involves a simple change in strategy that improves odds from
-# 31% to 33% in a 100 sample size and up to 52% in a 10 sample size
+#   31% to 33% in a 100 sample size and up to 52% in a 10 sample size
+#
+# The strategy:
+#   When they don't find their number, prisoners report the number on the card found in the last box/drawer
+# When the sequence is 51, and only when it's 51, it will always be the right answer.
+# This means any sequence 51 and shorter will work, not 50
+#
+# This also creates an alternative version of the puzzle:
+#   How to get better than 50% odds from opening half of 10 boxes
 #
 
 import random
  
 def main():
-    nb_loops = int(1_000)
+    nb_loops = int(10_000)
  
-    print("Commence hacking with", nb_loops, "loops ...")
+    print("Begin hacking with", "{:,}".format(nb_loops), "loops ...")
     print("10 boxes:")
     run_prisoners_riddle(10, nb_loops, False, "victory without last card strategy")
     run_prisoners_riddle(10, nb_loops, True, "victory with last card strategy")
