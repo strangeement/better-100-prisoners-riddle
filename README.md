@@ -2,7 +2,7 @@
 
 The strategy involves a simple change: When prisoners do not find their card, they report the number found in the last box.
 
-At 100 it's still an improvement of around 2%: 31% vs 33%. The odds are much improved with a smaller sample, at 10 prisoners/boxes it gives 52% odds.
+At 100 it's still an improvement of around 2%: 33% vs 31%. The odds are much improved with a smaller sample, at 10 prisoners/boxes it gives 52% odds.
 
 
 ### Program output for validation:
